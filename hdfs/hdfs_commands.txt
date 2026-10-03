@@ -1,0 +1,8 @@
+# HDFS ingestion - Customer Churn
+docker cp churn.csv namenode:/tmp/churn.csv
+docker exec namenode hdfs dfs -mkdir -p /data/churn/raw /data/churn/processed /data/churn/results
+docker exec namenode hdfs dfs -put -f /tmp/churn.csv /data/churn/raw/
+docker exec namenode hdfs dfs -ls -R /data/churn
+docker exec namenode hdfs dfs -du -h /data/churn/raw
+docker exec namenode hdfs fsck /data/churn/raw/churn.csv -files -blocks -locations
+docker exec namenode hdfs dfsadmin -report
