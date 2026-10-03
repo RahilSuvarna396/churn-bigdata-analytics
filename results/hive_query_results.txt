@@ -1,0 +1,24 @@
+null                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullcustomers,churned,churn_pct
+7043,1869,26.54
+null                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullcontract,customers,churn_pct
+Month-to-month,3875,42.71
+One year,1473,11.27
+Two year,1695,2.83
+null                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullinternetservice,customers,churn_pct
+Fiber optic,3096,41.89
+DSL,2421,18.96
+No,1526,7.40
+null                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullpaymentmethod,customers,churn_pct
+Electronic check,2365,45.29
+Mailed check,1612,19.11
+Bank transfer (automatic),1544,16.71
+Credit card (automatic),1522,15.24
+null                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullnull                                                   nullnull                                                   nulltenure_group,customers,churn_pct
+0-12,2186,47.44
+13-24,1024,28.71
+25-48,1594,20.39
+49+,2239,9.51
+null                                                   nullnull                                                   nullnull                                                   nullchurn,avg_monthly,avg_tenure
+No,61.27,37.6
+Yes,74.44,18.0
+null                                                   null
