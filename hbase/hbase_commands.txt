@@ -1,0 +1,9 @@
+# HBase churn-risk table
+docker exec -it hbase hbase shell
+create 'churn_risk', 'risk', 'profile'
+list
+describe 'churn_risk'
+# load data: docker exec hbase hbase shell /tmp/hbase_puts.txt  (see hbase_puts.txt)
+count 'churn_risk'
+scan 'churn_risk', {LIMIT => 5}
+get 'churn_risk', '5150-ITWWB'

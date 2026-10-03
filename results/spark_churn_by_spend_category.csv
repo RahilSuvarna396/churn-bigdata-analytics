@@ -1,0 +1,4 @@
+spend_category,customers,churn_pct,avg_monthly
+High,3591,35.48,90.19
+Medium,1721,23.65,54.72
+Low,1731,10.86,22.0
