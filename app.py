@@ -12,7 +12,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 RES, RAW = ROOT / "results", ROOT / "data" / "sample" / "churn.csv"
 ORDERS = {"tenure_group": ["0-12", "13-24", "25-48", "49+"], "spend_category": ["Low", "Medium", "High"]}
 SEGMENTS = {"Contract type": "contract", "Tenure group (months)": "tenure_group",
